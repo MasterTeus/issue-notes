@@ -1,3 +1,5 @@
+import { Title } from "./styles";
+
 export function Home() {
-  return <h1>Home</h1>;
+  return <Title>Home</Title>;
 }
