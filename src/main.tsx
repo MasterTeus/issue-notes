@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import { Routes } from "./src/routes/routes";
+import { Routes } from "./routes/routes";
 import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./src/theme/defaultTheme";
-import { greenTheme } from "./src/theme/greenTheme";
-import { purpeTheme } from "./src/theme/purpeTheme";
+import { defaultTheme } from "./theme/defaultTheme";
+import { greenTheme } from "./theme/greenTheme";
+import { purpeTheme } from "./theme/purpeTheme";
 
 const manageTheme = [defaultTheme, greenTheme, purpeTheme];
 
