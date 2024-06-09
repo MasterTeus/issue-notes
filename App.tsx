@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Home } from "./src/screens/Home/Home.tsx";
-import { Profile } from "./src/screens/Profile/Profile.tsx";
+import { BrowserRouter } from "react-router-dom";
+import { Routes } from "./src/routes/routes";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Home />
-    <Profile />
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   </React.StrictMode>
 );
