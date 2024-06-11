@@ -1,0 +1,94 @@
+{
+  // Fonts
+  "CSS FontSizes xsmall 12px": {
+    "prefix": "FontSizes_xsmall_12px",
+    "body": "${props => props.theme.fontSizes.xsmall}px",
+    "scope": "scss,css,source.css.styled"
+  },
+
+  "CSS FontSizes small 14px": {
+    "prefix": "FontSizes_small_14px",
+    "body": "${props => props.theme.fontSizes.small}px",
+    "scope": "scss,css,source.css.styled"
+  },
+
+  "CSS FontSizes medium 16px": {
+    "prefix": "FontSizes_medium_16px",
+    "body": "${themePaper.fontSizes.medium}px",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS FontSizes large 18px": {
+    "prefix": "FontSizes_large_18px",
+    "body": "${props => props.theme.fontSizes.large}px",
+    "scope": "scss,css,source.css.styled"
+  },
+
+  "CSS FontSizes xlarge 20px": {
+    "prefix": "FontSizes_xlarge_20px",
+    "body": "${props => props.theme.fontSizes.xlarge}px",
+    "scope": "scss,css,source.css.styled"
+  },
+
+  "CSS FontSizes hurge 20px": {
+    "prefix": "FontSizes_hurge_20px",
+    "body": "${props => props.theme.fontSizes.hurge}px",
+    "scope": "scss,css,source.css.styled"
+  },
+
+  // Color
+  "CSS Colors primary #3294F8": {
+    "prefix": "Colors_primary_#3294F8",
+    "body": "props => props.theme.colors.primary",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseTitle #E7EDF4": {
+    "prefix": "Colors_baseTitle_#E7EDF4",
+    "body": "props => props.theme.colors.baseTitle",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseSubtitle #C4D4E3": {
+    "prefix": "Colors_baseSubtitle_#C4D4E3",
+    "body": "props => props.theme.colors.baseSubtitle",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseText #AFC2D4": {
+    "prefix": "Colors_baseText_#AFC2D4",
+    "body": "props => props.theme.colors.baseText",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseSpan #7B96B2": {
+    "prefix": "Colors_baseSpan_#7B96B2",
+    "body": "props => props.theme.colors.baseSpan",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseLabel #3A536B": {
+    "prefix": "Colors_baseLabel_#3A536B",
+    "body": "props => props.theme.colors.baseLabel",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseBorder #1C2F41": {
+    "prefix": "Colors_baseBorder_#1C2F41",
+    "body": "props => props.theme.colors.baseBorder",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors basePost #112131": {
+    "prefix": "Colors_basePost_#112131",
+    "body": "props => props.theme.colors.basePost",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseProfile #0B1B2B": {
+    "prefix": "Colors_baseProfile_#0B1B2B",
+    "body": "props => props.theme.colors.baseProfile",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseBackground #071422": {
+    "prefix": "Colors_baseBackground_#071422",
+    "body": "props => props.theme.colors.baseBackground",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Colors baseInput #040F1A": {
+    "prefix": "Colors_baseInput_#040F1A",
+    "body": "props => props.theme.colors.baseInput",
+    "scope": "scss,css,source.css.styled"
+  }
+}
