@@ -38,57 +38,57 @@
   // Color
   "CSS Colors primary #3294F8": {
     "prefix": "Colors_primary_#3294F8",
-    "body": "props => props.theme.colors.primary",
+    "body": "${props => props.theme.colors.primary}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseTitle #E7EDF4": {
     "prefix": "Colors_baseTitle_#E7EDF4",
-    "body": "props => props.theme.colors.baseTitle",
+    "body": "${props => props.theme.colors.baseTitle}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseSubtitle #C4D4E3": {
     "prefix": "Colors_baseSubtitle_#C4D4E3",
-    "body": "props => props.theme.colors.baseSubtitle",
+    "body": "${props => props.theme.colors.baseSubtitle}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseText #AFC2D4": {
     "prefix": "Colors_baseText_#AFC2D4",
-    "body": "props => props.theme.colors.baseText",
+    "body": "${props => props.theme.colors.baseText}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseSpan #7B96B2": {
     "prefix": "Colors_baseSpan_#7B96B2",
-    "body": "props => props.theme.colors.baseSpan",
+    "body": "${props => props.theme.colors.baseSpan}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseLabel #3A536B": {
     "prefix": "Colors_baseLabel_#3A536B",
-    "body": "props => props.theme.colors.baseLabel",
+    "body": "${props => props.theme.colors.baseLabel}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseBorder #1C2F41": {
     "prefix": "Colors_baseBorder_#1C2F41",
-    "body": "props => props.theme.colors.baseBorder",
+    "body": "${props => props.theme.colors.baseBorder}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors basePost #112131": {
     "prefix": "Colors_basePost_#112131",
-    "body": "props => props.theme.colors.basePost",
+    "body": "${props => props.theme.colors.basePost}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseProfile #0B1B2B": {
     "prefix": "Colors_baseProfile_#0B1B2B",
-    "body": "props => props.theme.colors.baseProfile",
+    "body": "${props => props.theme.colors.baseProfile}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseBackground #071422": {
     "prefix": "Colors_baseBackground_#071422",
-    "body": "props => props.theme.colors.baseBackground",
+    "body": "${props => props.theme.colors.baseBackground}",
     "scope": "scss,css,source.css.styled"
   },
   "CSS Colors baseInput #040F1A": {
     "prefix": "Colors_baseInput_#040F1A",
-    "body": "props => props.theme.colors.baseInput",
+    "body": "${props => props.theme.colors.baseInput}",
     "scope": "scss,css,source.css.styled"
   }
 }
