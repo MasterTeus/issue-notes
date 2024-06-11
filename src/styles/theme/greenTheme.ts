@@ -1,6 +1,6 @@
 export const greenTheme = {
   colors: {
-    blue: "#2BAE66",
+    primary: "#2BAE66",
     baseTitle: "#D4EED1",
     baseSubtitle: "#A8D5A3",
     baseText: "#7EBC75",
@@ -20,4 +20,4 @@ export const greenTheme = {
     xlarge: 20,
     hurge: 20,
   },
-};
+} as const;

@@ -1,6 +1,6 @@
 export const defaultTheme = {
   colors: {
-    blue: "#3294F8",
+    primary: "#3294F8",
     baseTitle: "#E7EDF4",
     baseSubtitle: "#C4D4E3",
     baseText: "#AFC2D4",
@@ -20,4 +20,4 @@ export const defaultTheme = {
     xlarge: 20,
     hurge: 20,
   },
-};
+} as const;

@@ -1,6 +1,6 @@
 export const purpeTheme = {
   colors: {
-    blue: "#7C3AED",
+    primary: "#7C3AED",
     baseTitle: "#E8DAF4",
     baseSubtitle: "#D3B4E3",
     baseText: "#B38FC4",
@@ -20,4 +20,4 @@ export const purpeTheme = {
     xlarge: 20,
     hurge: 20,
   },
-};
+} as const;
