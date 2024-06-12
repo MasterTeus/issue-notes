@@ -7,10 +7,10 @@ export const Contianer = styled.div`
 `;
 
 export const Body = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: column;
   width: 864px;
   position: relative;
   top: -88px;
-  background: red;
 `;
