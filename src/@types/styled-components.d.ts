@@ -1,4 +1,4 @@
-import { defaultTheme } from "../styles/theme/defaultTheme";
+import { defaultTheme } from "styles/theme/defaultTheme";
 type ThemeType = typeof defaultTheme;
 
 declare module "styled-components" {

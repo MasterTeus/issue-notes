@@ -2,7 +2,7 @@ import React from "react";
 
 import * as S from "./styles";
 import { UserDetails } from "../UserDetails/UserDetail";
-import { Link } from "../../assets/Link";
+import { Link } from "assets/Link";
 
 export const ProfileCard: React.FC = () => {
   return (

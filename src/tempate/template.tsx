@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Header } from "../components/Header/Header";
+import { Header } from "components/Header/Header";
 
 import * as S from "./styles";
 

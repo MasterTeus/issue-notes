@@ -2,9 +2,9 @@ import React from "react";
 
 import * as S from "./styles";
 
-import { UserName } from "../../assets/UserName";
-import { Followers } from "../../assets/Followers";
-import { Organization } from "../../assets/Organization";
+import { UserName } from "assets/UserName";
+import { Followers } from "assets/Followers";
+import { Organization } from "assets/Organization";
 
 export const UserDetails: React.FC<{
   iconName: "username" | "organization" | "folloers";
