@@ -17,9 +17,18 @@ body {
     height: 100vh;
     -webkit-font-smoothing: antialiased;
 }
+p, span, a {
+    line-height: 160%;
+}
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 body, input, textarea, button {
     font: 400 1rem Nunito, sans-serif;
 }
-
 `;

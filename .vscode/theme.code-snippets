@@ -1,37 +1,47 @@
 {
-  // Fonts
-  "CSS FontSizes xsmall 12px": {
-    "prefix": "FontSizes_xsmall_12px",
-    "body": "${props => props.theme.fontSizes.xsmall}px",
+  // sizes
+  "CSS Sizes xxsmall 4px": {
+    "prefix": "Sizes_xxxsmall_4px",
+    "body": "${props => props.theme.sizes.xxxsmall}px",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Sizes xxsmall 8px": {
+    "prefix": "Sizes_xxsmall_8px",
+    "body": "${props => props.theme.sizes.xxsmall}px",
+    "scope": "scss,css,source.css.styled"
+  },
+  "CSS Sizes xsmall 12px": {
+    "prefix": "Sizes_xsmall_12px",
+    "body": "${props => props.theme.sizes.xsmall}px",
     "scope": "scss,css,source.css.styled"
   },
 
-  "CSS FontSizes small 14px": {
-    "prefix": "FontSizes_small_14px",
-    "body": "${props => props.theme.fontSizes.small}px",
+  "CSS Sizes small 14px": {
+    "prefix": "Sizes_small_14px",
+    "body": "${props => props.theme.sizes.small}px",
     "scope": "scss,css,source.css.styled"
   },
 
-  "CSS FontSizes medium 16px": {
-    "prefix": "FontSizes_medium_16px",
-    "body": "${themePaper.fontSizes.medium}px",
+  "CSS Sizes medium 16px": {
+    "prefix": "Sizes_medium_16px",
+    "body": "${props => props.theme.sizes.medium}px",
     "scope": "scss,css,source.css.styled"
   },
-  "CSS FontSizes large 18px": {
-    "prefix": "FontSizes_large_18px",
-    "body": "${props => props.theme.fontSizes.large}px",
-    "scope": "scss,css,source.css.styled"
-  },
-
-  "CSS FontSizes xlarge 20px": {
-    "prefix": "FontSizes_xlarge_20px",
-    "body": "${props => props.theme.fontSizes.xlarge}px",
+  "CSS Sizes large 18px": {
+    "prefix": "Sizes_large_18px",
+    "body": "${props => props.theme.sizes.large}px",
     "scope": "scss,css,source.css.styled"
   },
 
-  "CSS FontSizes hurge 20px": {
-    "prefix": "FontSizes_hurge_20px",
-    "body": "${props => props.theme.fontSizes.hurge}px",
+  "CSS Sizes xlarge 20px": {
+    "prefix": "Sizes_xlarge_20px",
+    "body": "${props => props.theme.sizes.xlarge}px",
+    "scope": "scss,css,source.css.styled"
+  },
+
+  "CSS Sizes hurge 24px": {
+    "prefix": "Sizes_hurge_24px",
+    "body": "${props => props.theme.sizes.hurge}px",
     "scope": "scss,css,source.css.styled"
   },
 
