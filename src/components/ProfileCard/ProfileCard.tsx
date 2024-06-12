@@ -4,32 +4,44 @@ import * as S from "./styles";
 import { UserDetails } from "../UserDetails/UserDetail";
 import { Link } from "assets/Link";
 
+import { useQuery } from "@tanstack/react-query";
+import { fetchUser } from "services";
+
 export const ProfileCard: React.FC = () => {
+  const { data: user } = useQuery({
+    queryKey: ["getUser"],
+    queryFn: fetchUser,
+  });
+
   return (
     <S.Container>
-      <S.Avatar src="https://avatars.githubusercontent.com/u/39800209?v=4" />
-      <div>
+      <S.Avatar src={user?.avatar_url} />
+      <div style={{ width: "100%" }}>
         <S.Row
           style={{
-            width: "100%",
             justifyContent: "space-between",
           }}
         >
-          <S.Name>Mateus Cazuza</S.Name>
-          <S.Link href="http://" target="_blank" rel="noopener noreferrer">
+          <S.Name>{user?.name}</S.Name>
+          <S.Link href={user?.html_url} target="_blank">
             <b>GITHUB</b>
             <Link />
           </S.Link>
         </S.Row>
-        <S.Bio>
-          Tristique volutpat pulvinar vel massa, pellentesque egestas. Eu
-          viverra massa quam dignissim aenean malesuada suscipit. Nunc, volutpat
-          pulvinar vel mass.
-        </S.Bio>
+        <S.Bio>{user?.bio}</S.Bio>
         <S.Row>
-          <UserDetails iconName="username" label="masterteus" />
-          <UserDetails iconName="organization" label="Gympass" />
-          <UserDetails iconName="folloers" label="8 seguidores" />
+          {user?.login && (
+            <UserDetails iconName="username" label={user?.login} />
+          )}
+          {user?.company && (
+            <UserDetails iconName="organization" label={user?.company} />
+          )}
+          {user?.followers && (
+            <UserDetails
+              iconName="folloers"
+              label={`${user?.followers} seguidores`}
+            />
+          )}
         </S.Row>
       </div>
     </S.Container>
