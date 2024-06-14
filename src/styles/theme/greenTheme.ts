@@ -13,11 +13,14 @@ export const greenTheme = {
     baseInput: "#040A04",
   },
   fontSizes: {
+    xxxsmall: 4,
+    xxsmall: 8,
     xsmall: 12,
     small: 14,
     medium: 16,
     large: 18,
     xlarge: 20,
-    hurge: 20,
+    xxlarge: 24,
+    hurge: 32,
   },
 } as const;

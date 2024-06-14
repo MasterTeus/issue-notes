@@ -39,8 +39,14 @@
     "scope": "scss,css,source.css.styled"
   },
 
-  "CSS Sizes hurge 24px": {
-    "prefix": "Sizes_hurge_24px",
+  "CSS Sizes xxlarge 24px": {
+    "prefix": "Sizes_xxlarge_24px",
+    "body": "${props => props.theme.sizes.xxlarge}px",
+    "scope": "scss,css,source.css.styled"
+  },
+
+  "CSS Sizes hurge 32px": {
+    "prefix": "Sizes_hurge_32px",
     "body": "${props => props.theme.sizes.hurge}px",
     "scope": "scss,css,source.css.styled"
   },

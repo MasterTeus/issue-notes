@@ -20,7 +20,7 @@ export const Avatar = styled.img`
 export const Name = styled.h3`
   margin-top: ${(props) => props.theme.sizes.xxsmall}px;
   color: ${(props) => props.theme.colors.baseTitle};
-  font-size: ${(props) => props.theme.sizes.hurge}px;
+  font-size: ${(props) => props.theme.sizesxxlarge}px;
   font-weight: bold;
   line-height: 130%;
 `;
@@ -29,12 +29,12 @@ export const Bio = styled.p`
   font-size: ${(props) => props.theme.sizes.medium}px;
   color: ${(props) => props.theme.colors.baseText};
   margin: ${(props) => props.theme.sizes.xxsmall}px 0
-    ${(props) => props.theme.sizes.hurge}px;
+    ${(props) => props.theme.sizes.xxlarge}px;
 `;
 
 export const Row = styled.div`
   display: flex;
-  gap: ${(props) => props.theme.sizes.hurge}px;
+  gap: ${(props) => props.theme.sizes.xxlarge}px;
   align-items: center;
 `;
 

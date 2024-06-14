@@ -20,6 +20,7 @@ export const defaultTheme = {
     medium: 16,
     large: 18,
     xlarge: 20,
-    hurge: 24,
+    xxlarge: 24,
+    hurge: 32,
   },
 } as const;
