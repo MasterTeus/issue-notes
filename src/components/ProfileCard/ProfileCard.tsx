@@ -6,11 +6,13 @@ import { Link } from "assets/Link";
 
 import { useQuery } from "@tanstack/react-query";
 import { fetchUser } from "services";
+import { useParams } from "react-router-dom";
 
 export const ProfileCard: React.FC = () => {
+  const { me } = useParams();
   const { data: user } = useQuery({
     queryKey: ["getUser"],
-    queryFn: fetchUser,
+    queryFn: () => fetchUser(me!),
   });
 
   return (
