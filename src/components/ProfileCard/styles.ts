@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  gap: 32px;
+  gap: ${props => props.theme.sizes.hurge}px;
 
   width: 100%;
   height: 212px;
   border-radius: 10px;
-  padding: 32px 40px;
+  padding: ${props => props.theme.sizes.hurge}px 40px;
   background-color: ${(props) => props.theme.colors.baseProfile};
 `;
 

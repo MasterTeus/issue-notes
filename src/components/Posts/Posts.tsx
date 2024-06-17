@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import { getPosts } from "services";
 
 import * as S from "./styles";
+import { formatData } from "utils/date";
 
 export const Posts: React.FC = () => {
   const { me } = useParams();
@@ -21,7 +22,12 @@ export const Posts: React.FC = () => {
     <S.Container>
       {posts.map((post) => (
         <S.Post>
-          <S.Title>{post.title}</S.Title>
+          <S.Row>
+            <S.Title>{post.title}</S.Title>
+            <S.UpdatedAt>{formatData(post.updated_at)}</S.UpdatedAt>
+          </S.Row>
+
+          <S.Description>{post.body}</S.Description>
         </S.Post>
       ))}
     </S.Container>
